@@ -44,28 +44,28 @@ const tablesView = async () =>{
 
 }
 const getMemory = (valeur) => {
-    let imgTxt = "image/";
+    let imgTxt = "";
 
         switch (valeur) {
-            case 1: imgTxt += "elephant.jpg";
+            case 1: imgTxt += "image/elephant.jpg";
                 break;
-            case 2: imgTxt += "giraffe.jpg";
+            case 2: imgTxt += "image/giraffe.jpg";
                 break;
-            case 3: imgTxt += "hippo.jpg";
+            case 3: imgTxt += "image/hippo.jpg";
                 break;  
-            case 4: imgTxt += "monkey.png";
+            case 4: imgTxt += "image/monkey.jpg";
                 break;
-            case 5: imgTxt += "panda.png"
+            case 5: imgTxt += "image/panda.jpg"
                 break;
-            case 6: imgTxt += "parrot.png"
+            case 6: imgTxt += "image/parrot.jpg"
                 break;
-            case 7: imgTxt += "penguin.png"
+            case 7: imgTxt += "image/penguin.jpg"
                 break;
-            case 8: imgTxt += "pig.png"
+            case 8: imgTxt += "image/pig.jpg"
                 break;
-            case 9: imgTxt += "rabbit.png"
+            case 9: imgTxt += "image/rabbit.jpg"
                 break;
-            case 10: imgTxt += "snake.png"
+            case 10: imgTxt += "image/snake.jpg"
                 break;
             default: console.log("Cas non pris en compte")
                 break;
